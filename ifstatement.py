@@ -16,7 +16,7 @@
 
 # age = int(input("Enter your age: "))
 # if age > 17:                             # For true condition
-    # print("You are an adult")
+#     print("You are an adult")
 
 
 # 2. if-else statement
@@ -93,10 +93,10 @@
 # (Answer:1) 
 # Value is False
 # Reason: In python, the following values are considered as False in a boolean context:
-#- None,False,0,0.0,'' (Empty string), [],{},(),(Empty list, dict, tuple)
+# - None,False,0,0.0,'' (Empty string), [],{},(),(Empty list, dict, tuple)
 
 # (Q.2) "Leap Year" Write a simple program to determine if a given year is a leap year using user input.
- # Note: Leap year occurs every 4 years
+#  Note: Leap year occurs every 4 years
 # A year is a leap year if it is divisible by 4, but not if it is dividible by 100, unless it is also divsible by 400.
 # (Answer:2)
 
@@ -128,11 +128,10 @@
 # predefined_password = 'Pass0008'
 
 # # prompts the user to enter a username and password.
-username = input("Enter Your username: ")
-password = input("Enter Your password: ")
+# username = input("Enter Your username: ")
+# password = input("Enter Your password: ")
 
 # # username and password match:
-<<<<<<< HEAD
 # if username == predefined_username:
 #     if password == predefined_password:
 #         print("Welcome! You are Successfully Login")
@@ -140,15 +139,6 @@ password = input("Enter Your password: ")
 #         print("Incorrect Password")
 # else:
 #     print("Invalid username")   
-=======
-if username == predefined_username:
-    if password == predefined_password:
-        print("Welcome! You are Successfully Login")
-    else:
-        print("Incorrect Password")
-else:
-    print("Invalid username")        
->>>>>>> ce19f5de66c71ee098c3bd33931527dcf28b4fda
 
 
 
